@@ -15,6 +15,12 @@
       integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <!-- Google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
@@ -62,29 +68,25 @@
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
         <div class="service">
-          <h3>Front-end Development</h3>
+          <h3><strong>Front-end Development</strong></h3>
           <p>
-            My area of expertise in this context is vanilla Javascript, React
-            and Angular 4+, all of which i have professional experience working
-            with.
+            Vanilla Javascript, React and Angular 4+
           </p>
         </div>
         <div class="service">
-          <h3>Design</h3>
+          <h3><strong>Design</strong></h3>
           <p>
-            I have personal experience designing user interfaces and working
-            with various UI/UX tools specifically adobe Photoshop and adobe XD.
+            Adobe Photoshop and Adobe XD.
           </p>
         </div>
         <div class="service">
-          <h3>Back-end Development</h3>
+          <h3><strong>Back-end Development</strong></h3>
           <p>
-            My skills in this regard include back-end development using C# in
-            ASP.net-core MVC. This has also involved using Entity framework.
+            C#, ASP.net-core and Entity framework.
           </p>
         </div>
       </div>
-      <a href="#work" class="btn">My Work</a>
+      <a href="#work" class="customButton">My Work</a>
     </section>
 
     <!-- About me -->
@@ -117,59 +119,75 @@
     <section class="my-work" id="work">
       <h2 class="section__title section__title--work">My work</h2>
       <p class="section__subtitle section__subtitle--work">
-        A selection of my range of work
+        A selection of my personal projects
       </p>
 
-      <div class="portfolio">
-        <!-- Portfolio item 01 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 02 -->
-        <a href="#" class="portfolio__item">
-          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 03 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 04 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 05 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 06 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 07 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 08 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 09 -->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 10-->
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-10.jpg" alt="" class="portfolio__img" />
-        </a>
+      <!-- Portfolio item 01 -->
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img src="./img/p2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Covid-19 Static Tracker</h5>
+              <p class="card-text">
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-bootstrap"></i>
+              </p>
+              <a
+                href=" https://benardcharumbira.github.io/covi-stat"
+                class="btn btn-primary"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/benardcharumbira/covi-stat"
+                class="btn btn-dark"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img src="./img/p1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Huddle</h5>
+              <p class="card-text">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+              </p>
+              <a
+                href=" https://benardcharumbira.github.io/Huddle/."
+                class="btn btn-primary"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/benardcharumbira/Huddle"
+                class="btn btn-dark"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img src="./img/p3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Ngoho</h5>
+              <p class="card-text">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-bootstrap"></i>
+                <i class="fab fa-js-square"></i>
+              </p>
+              <a href=" http://www.ngoho.co.za" class="btn btn-primary">Demo</a>
+              <a
+                href="https://github.com/benardcharumbira/Ngoho-Web"
+                class="btn btn-dark"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
